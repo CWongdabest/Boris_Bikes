@@ -15,4 +15,8 @@ Docking Station | release_bike
 Objects | Messages
 ------- | --------
 Person |
-Bike | use_bike, see_if_working 
+Bike | use_bike, see_if_working
+
+      <--------- Use bike ------------------->
+Person - Go to  -> Docking Station - release -> bike
+    <----------- Test bike ------------------> 
